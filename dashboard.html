@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rajdhani:400,600|Roboto:400,500,500i"
+    />
+    <link rel="stylesheet" href="/dashboard.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="navbar">
+        <div><label class="verify-red pointer">Verify Email</label></div>
+        <button id="book_demo">Book Demo</button>
+        <button class="Create_new_bot p_l_15 p_r_15">Create new bot</button>
+        <div class="flex">
+          <div id="name_first">
+            <span>M</span>
+          </div>
+          <button id="user_info">
+            <p id="username">mahipat parmar</p>
+            <span id="email">pmmahipat303@gmail.com</span>
+            <i class="fa fa-caret-down m-l-5 pull-right m-t-5"></i>
+          </button>
+        </div>
+      </div>
+      <div id="midle">
+        <div id="midle_sidebar">
+          <div>
+            <img
+              class="large icon-fs"
+              src="https://www.app.smatbot.com/img/Dashboard-side-panel/home-dashboard-icon.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://www.app.smatbot.com/img/Dashboard-side-panel/ai3-dashboard-icon.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://www.app.smatbot.com/img/Dashboard-side-panel/template-dashboard-icon.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://www.app.smatbot.com/img/Dashboard-side-panel/referal-dashboard-icon.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div id="midle_main" class="fullpage">
+          <div class="bots-search-bar">
+            <select class="set_inner_box" id="bot_selector">
+              <option value="">All</option>
+              <option value="">Lead Generation Bot</option>
+              <option value="">Customer Support Bot</option>
+            </select>
+            <div id="search_box" class="b_r">
+              <input
+                class="set_inner_box"
+                id="bots_search_input"
+                placeholder="Search here for bot"
+              />
+              <i class="fa fa-search bot-search-icon p-r-10"></i>
+            </div>
+          </div>
+          <h4>Currently you don't have any bots</h4>
+          <button id="bots_create_bot">+ Create new bot</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
