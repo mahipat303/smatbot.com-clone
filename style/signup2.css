@@ -87,7 +87,7 @@
     font-size: 12px;
     font-weight: 600;
 }#number-box-1{
-   height: 100%;
+    height: 100%;
     border: 2px solid #465def;
     border-radius: 50%;
     width: 24px;
@@ -99,13 +99,13 @@
 }#number-box-hr{
     height: 2px;
     width: 80px;
-    background-color:rgb(211,211,211);
+    background-color:#465def;
 
 }#number-box-2{
     height: 100%;
+    border: 2px solid #465def;
     border-radius: 50%;
     width: 24px;
-    background-color: rgb(211,211,211);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,8 +167,8 @@ label{
     margin-top: 15px;
     height: 34px;
     color: #FFFFFF;
-    background-color:#d1d2d4 ;     
-     /* #465DEF; */
+    background-color:#465DEF; ;     
+    cursor: pointer;
     border-width: 0px;
     border-radius: 4px;
     font-size: 14px;
@@ -188,6 +188,24 @@ label{
 }#already-account>p>span{
     color: #465def;
     cursor: pointer;
+}
+#link_page{
+    height: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #465DEF;
+}#link_page>h1{
+    font-size: 12px;
+    font-weight: 600;
+    color: #465DEF;
+    margin-left: 12px;
+    margin-right: 12px;
+}#link_page>a{
+    text-decoration: none;
 }
 
 
@@ -235,6 +253,10 @@ color: #FFFFFF;
 }.fa-check{
     height: 14px;
     width: 14px;
+}
+a{
+    text-decoration: none;
+    color: #465def;
 }
 
 
