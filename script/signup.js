@@ -444,9 +444,27 @@ const checkbox=()=>{
 let userf=document.getElementById("user-form1")
 userf.addEventListener("submit",submituserform1)
 
+
+let usersdata=JSON.parse(localStorage.getItem("usersdata"))
 function submituserform1(event){
     
     event.preventDefault()
+    let plan=document.getElementById("user-plan").value;
+    let email=document.getElementById("user-email").value;
+    let url=document.getElementById("user-website").value;
+    let pass=document.getElementById("user-password").value;
+    usersdata.forEach((ele)=>{
+      if(email==ele.email){
+        alert("Email Already Exist")
+      }else{
+        setdata()
+      }
+    })
+
+    
+}
+
+function setdata(){
     let plan=document.getElementById("user-plan").value;
     let email=document.getElementById("user-email").value;
     let url=document.getElementById("user-website").value;

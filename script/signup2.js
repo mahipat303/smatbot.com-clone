@@ -405,12 +405,13 @@ document.getElementById("back").addEventListener("click",()=>{
 })
 
 
-let usersdata=[]
+let usersdata=JSON.parse(localStorage.getItem("usersdata")) ||  []
 
 let userf2=document.getElementById("user-form2")
 userf2.addEventListener("submit",data)
 
-function data(event){
+function data(){
+    event.preventDefault()
     let name=document.getElementById("user-name").value 
     let phone=document.getElementById("user-number").value
     let refferal=document.getElementById("user-refferal").value
@@ -433,5 +434,9 @@ function data(event){
     }else{
     usersdata.push(obj)
     localStorage.setItem("usersdata",JSON.stringify(usersdata))
+    window.location.href="login.html"
     }
+    
+    
 }
+
