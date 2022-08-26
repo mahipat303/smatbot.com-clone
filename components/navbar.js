@@ -3,9 +3,9 @@ let navbars=()=>{
     <div id="left_navbar">
         <div id="left_up"> 
             <div> <a href="index.html"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" alt=""></a></div>
-          <div>  <a href="index.html"><h2>SmatBot</h2></a></div> 
+          <div>  <a href="index.html"><h2 id="logo_id">SmatBot</h2></a></div> 
         </div>
-      <div><p>Subsidiary of ByteQuark</p></div> 
+      <div><p id="logo_id2">Subsidiary of ByteQuark</p></div> 
      </div>
 
 <div id="right_navbar">

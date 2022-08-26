@@ -1,5 +1,5 @@
 let footer = () => {
-    return `      <section class="ft-footer-section-cont">
+    return `       <section class="ft-footer-section-cont">
     <!-- For Small Devices -->
     <div class="ft-footer-main-full-cont ft-footer-hide-small-devices">
 
@@ -328,8 +328,6 @@ let footer = () => {
         <hr class="ft-footer-hr-line" />
         <h1 class="ft-footer-copy-heading"><i class="far fa-copyright"></i> 2015-2022 Feso Social Media. All Rights Reserved.</h1>
     </div>
-</section>
-  
-  `
+</section>`
   }
-  export default footer
+  export default footer;
