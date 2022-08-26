@@ -1254,3 +1254,24 @@
        color: rgb(51, 71, 91);
 
    }
+
+   .last-end{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color:rgb(71,98,239);
+    background-image: url('https://www.smatbot.com/img/world-in-bg.svg');
+   }
+   .last-end>button{
+    padding: 13px;
+    border:none;
+    border-radius: 5px;
+    /* gap: 20px; */
+
+margin: 10px;    color: rgb(71,98,239);
+   }
