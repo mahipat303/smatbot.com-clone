@@ -116,14 +116,51 @@
 
     display: flex;
     justify-content: space-between;
-    margin: auto;
+
     margin-top: 100px;
     width: 80%;
+    margin: auto;
 
 }
 
 #slider>div>img {
-    width: 80px;
+    width: 100px;
+
+}
+
+@keyframes slide-show {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-100px);
+
+    }
+
+    100% {
+        transform: translateX(-50);
+    }
+}
+
+#slider {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 20px;
+    animation: slide-show 4s linear infinite;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    /* width: 80%; */
+
+}
+
+
+
+#slider>div>img {
+    width: 90px;
+    /* margin: auto; */
 
 }
 
