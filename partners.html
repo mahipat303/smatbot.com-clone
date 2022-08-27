@@ -71,23 +71,67 @@
         <div><img src="https://www.smatbot.com/img/companies/ramoji.svg" alt=""></div>
         <div><img src="https://www.smatbot.com/img/companies/forward_parcel.svg" alt=""></div>
     </div>
+
+<!-- ....................page.............................. -->
+<div id="page2">
+    <div id="page2_div0"> <img src="https://www.smatbot.com/img/partners_page_images/p2side.png" alt=""></div>
+    <div id="page2_div1">
+     <h2>Experience <br>
+        Our Platform For Yourself</h1>
+        <p>Free Usage of Our Platform - Both Website
+            & WhatsApp for 3 months.</p>
+
+    </div>
+    <div id="page2_div2">
+      
+       <img src="https://www.smatbot.com/img/partners_page_images/p2img.png" alt="">
+      
+    </div>
+  </div>
+
+<div id="page3">
+  <div id="page3_div1">
+    <div>
+      <img src="https://www.smatbot.com/img/partners_page_images/p3-left.svg" alt=""/>
+    </div>
+    <div>
+      <h2>Earn Recurring Revenue</h2>
+      <p>Get a 20% commission (on the recurring subscription value)for any clients that onboard with us through your referral.</p>
+    </div>
+  </div>
+  <div id="page3_div2">
+    <div>
+        <img src="https://www.smatbot.com/img/partners_page_images/p3-right.svg" alt=""/>
+      </div>
+      <div>
+        <h2>Add Value To Your Clients</h2>
+        <p>10% discount will be applied on standard
+            plans to the first client you onboard with us.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ............................Contact Us.......................................... -->
+
+
    <!-- ............................Contact Us.......................................... -->
    <div id="contact">
     <div class="partnerHead">Contact Us</div>
     <img class="line" src="https://www.smatbot.com/img/Line.svg" alt="">
     <div class="form">
         <div>
-            <input type="text" placeholder="Name">
+            <input id="name" type="text" placeholder="Name">
         </div>
         <div>
-            <input type="email" placeholder="Email">
+            <input id="email" type="email" placeholder="Email">
         </div>
         <div>
             
-            <input type="number" placeholder="Phone Number">
+            <input id="number" type="number" placeholder="Phone Number">
         </div>
         <div>
-            <input type="text" placeholder="Website">
+            <input id="website" type="text" placeholder="Website">
         
         </div>
         
@@ -98,7 +142,7 @@
        
         
     </div>
-    <div class="contactBtn"><button class="primaryBtn">Send Message</button></div>
+    <div class="contactBtn"><button onclick="submits()" class="primaryBtn">Send Message</button></div>
 </div>
 
     
@@ -113,4 +157,43 @@ nav.innerHTML=navbars()
     import footer from "./components/footer.js"
 let container=document.getElementById("footer")
 container.innerHTML=footer()
+</script>
+
+
+
+
+<script >
+
+let btn=document.getElementsByClassName("primaryBtn")
+function submits(){
+    let masgData={
+    
+    name:document.getElementById("name").value,
+    email:document.getElementById("email").value,
+    website:document.getElementById("website").value,
+    message:document.getElementById("message").value,
+    number:document.getElementById("number").value,
+    
+}
+console.log('masgData:', masgData);
+if(masgData.name==""){
+    alert("Name should not be empty")
+}else if (masgData.email=="") {
+    alert("Email should not be empty")
+}else if(masgData.number==""){
+    alert("Number should not be empty")
+}
+else if(masgData.website==""){
+    alert("Website should not be empty")
+} else if(masgData.message==""){
+    alert("Message should not be empty")
+}
+else{
+    alert("Message Send")
+
+}
+    
+   
+}
+
 </script>
