@@ -18,46 +18,55 @@
       href="https://fonts.googleapis.com/css?family=Rajdhani:400,600|Roboto:400,500,500i"
     />
     <link rel="stylesheet" href="dashboard.css" />
+
+    <!-- bot link =====================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <link rel="stylesheet" href="/style/chat.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div id="main">
       <div id="navbar">
         <div><label class="verify-red pointer">Verify Email</label></div>
         <button id="book_demo">Book Demo</button>
-        <button class="Create_new_bot p_l_15 p_r_15">Create new bot</button>
+        <button onclick="createbot()" class="Create_new_bot p_l_15 p_r_15">
+          Create new bot
+        </button>
         <div class="flex">
           <div id="name_first">
-            <span>M</span>
+            <span id="firstletter"></span>
           </div>
           <button id="user_info">
-            <p id="username">mahipat parmar</p>
-            <span id="email">pmmahipat303@gmail.com</span>
+            <p id="username"></p>
+            <span id="email"></span>
             <i class="fa fa-caret-down m-l-5 pull-right m-t-5"></i>
           </button>
         </div>
       </div>
       <div id="midle">
         <div id="midle_sidebar">
-          <div>
+          <div class="b-c-g" onclick="goDash()">
             <img
               class="large icon-fs"
               src="https://www.app.smatbot.com/img/Dashboard-side-panel/home-dashboard-icon.svg"
               alt=""
             />
           </div>
-          <div>
+          <div class="b-c-g" onclick="goAi()">
             <img
               src="https://www.app.smatbot.com/img/Dashboard-side-panel/ai3-dashboard-icon.svg"
               alt=""
             />
           </div>
-          <div>
+          <div class="b-c-g" onclick="goTemp()">
             <img
               src="https://www.app.smatbot.com/img/Dashboard-side-panel/template-dashboard-icon.svg"
               alt=""
             />
           </div>
-          <div>
+          <div class="b-c-g">
             <img
               src="https://www.app.smatbot.com/img/Dashboard-side-panel/referal-dashboard-icon.svg"
               alt=""
@@ -80,10 +89,107 @@
               <i class="fa fa-search bot-search-icon p-r-10"></i>
             </div>
           </div>
-          <h4>Currently you don't have any bots</h4>
+          <h4 id="offtext">Currently you don't have any bots</h4>
           <button id="bots_create_bot">+ Create new bot</button>
+          <div id="botinfoappend">
+            <div>
+              <img
+                src="https://s3.ap-south-1.amazonaws.com/custpostimages/ss_images/avatar1.png"
+                alt=""
+              />
+              <label>Your Bot</label>
+            </div>
+            <hr>
+            <div>
+              <button>
+                <img
+                  src="https://www.app.smatbot.com/img/Dashboard-side-panel/setup-dashboard-icon.svg"
+                  alt=""
+                />
+              </button>
+              <button>
+                <img
+                  src="https://www.app.smatbot.com/img/Dashboard-side-panel/trigger-icon.svg"
+                  alt=""
+                />
+              </button>
+              <button>
+                <img
+                  src="https://www.app.smatbot.com/img/Dashboard-side-panel/live-chat-icon.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- =================  BOT Starts Here    ======================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+      <!-- CHAT BAR BLOCK -->
+      <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">
+          <!-- <i
+          id="chat-icon"
+          style="color: #fff"
+          class="fa fa-fw fa-comments-o"
+        ></i> -->
+          <img
+            id="Avatar"
+            src="https://custpostimages.s3.ap-south-1.amazonaws.com/11/1617101659265.jpg"
+            alt=""
+          />
+        </button>
+
+        <div class="content">
+          <div class="full-chat-block">
+            <!-- Message Container -->
+            <div class="outer-container">
+              <div class="chat-container">
+                <!-- Messages -->
+                <div id="chatbox">
+                  <h5 id="chat-timestamp"></h5>
+                  <p id="botStarterMessage" class="botText">
+                    <span>Loading...</span>
+                  </p>
+                </div>
+
+                <!-- User input box -->
+                <div class="chat-bar-input-block">
+                  <div id="userInput">
+                    <input
+                      id="textInput"
+                      class="input-box"
+                      type="text"
+                      name="msg"
+                      placeholder="Tap 'Enter' to send a message"
+                    />
+                    <p></p>
+                  </div>
+
+                  <div class="chat-bar-icons">
+                    <i id="chat-icon" class="fa-solid fa-microphone-lines"></i>
+                    <i
+                      id="chat-icon"
+                      style="color: #333"
+                      class="fa fa-fw fa-send"
+                      onclick="sendButton()"
+                    ></i>
+                  </div>
+                </div>
+
+                <div id="chat-bar-bottom">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =================  BOT Ends Here    ======================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     </div>
   </body>
 </html>
+<script src="/script/dashboard.js"></script>
+<!-- ====================   Bot JS      =========>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/script/chat.js"></script>
+<script src="/script/res.js"></script>
