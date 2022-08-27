@@ -2,10 +2,11 @@ let navbars=()=>{
     return `  <div id="inner_navbar">
     <div id="left_navbar">
         <div id="left_up"> 
-            <div> <a href="index.html"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" alt=""></a></div>
-          <div>  <a href="index.html"><h2>SmatBot</h2></a></div> 
+        
+            <a href="homepage.html"> <img src="https://s3.ap-south-1.amazonaws.com/custpostimages/sb_images/SB_logo_horizontal_text_compressed.png" alt="smatbot-logo"></a>
+       
         </div>
-      <div><p>Subsidiary of ByteQuark</p></div> 
+      <div><p id="logo_id2">Subsidiary of ByteQuark</p></div> 
      </div>
 
 <div id="right_navbar">
@@ -51,7 +52,7 @@ let navbars=()=>{
 </div>
 <div class="class-menu">
             
-<button class="class-button"><a href="Login.html">Login</a> </button>
+<button class="class-button"><a href="login.html">Login</a> </button>
 
 
 
@@ -75,3 +76,12 @@ let navbars=()=>{
 </div>  `
 }
 export default navbars;
+
+
+
+
+
+
+ 
+        //     <div> <a href="index.html"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" alt=""></a></div>
+        //   <div>  <a href="index.html"><h2 id="logo_id">SmatBot</h2></a></div> 
