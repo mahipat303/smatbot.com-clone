@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>chatbot_templates</title>
+    <title>Document</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap"
       rel="stylesheet"
@@ -13,11 +13,13 @@
       rel="stylesheet"
       href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
     />
-    <link rel="stylesheet" href="/style/dash_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rajdhani:400,600|Roboto:400,500,500i"
+    />
+    <link rel="stylesheet" href="dashboard.css" />
 
-    <link rel="stylesheet" href="/style/chatbot_templates.css" />
-    <!-- <link rel="stylesheet" href="dashboard.css" /> -->
-
+    <!-- bot link =====================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     <link rel="stylesheet" href="/style/chat.css" />
     <link
       rel="stylesheet"
@@ -27,7 +29,11 @@
   <body>
     <div id="main">
       <div id="navbar">
-        <div class="fs-16 bold p-0">Templates</div>
+        <div><label class="verify-red pointer">Verify Email</label></div>
+        <button id="book_demo">Book Demo</button>
+        <button onclick="createbot()" class="Create_new_bot p_l_15 p_r_15">
+          Create new bot
+        </button>
         <div class="flex">
           <div id="name_first">
             <span id="firstletter"></span>
@@ -48,7 +54,7 @@
               alt=""
             />
           </div>
-          <div class="b-c-g" onclick="goAi()">
+          <div class="b-c-g">
             <img
               src="https://www.app.smatbot.com/img/Dashboard-side-panel/ai3-dashboard-icon.svg"
               alt=""
@@ -68,30 +74,11 @@
           </div>
         </div>
         <div id="midle_main" class="fullpage">
-          <div id="list" class="industries-sidebar-scroll">
-            <select
-              name=""
-              id="category_selector"
-              class="height-40 border-0 full-width p-l-15 p-r-10 fs-14 text-black m-t-15 bg-sidebars ng-pristine ng-valid ng-touched padding-5"
-            >
-              <option value="L_G_B">Lead Generation Bot</option>
-              <option value="C_S_B">Customer Support Bot</option>
-            </select>
-            <div>
-              <ul id="ul" class="m-b-15"></ul>
-            </div>
-          </div>
-          <div id="temp_father" class="industries-sidebar-scroll">
-            <div class="full_width m-a pull-left p-l-15 p-r-15 m-b-15 relative">
-              <i class="absolute fa fa-search top-15 left-30"></i>
-              <input
-                id="search_temp"
-                placeholder="Search for Templates"
-                type="text"
-              />
-            </div>
-            <div id="template_container"></div>
-          </div>
+          <h4>
+            Sorry AI Agents feature is not available for you, You need to
+            upgrade to get this feature
+          </h4>
+          <button id="bots_create_bot">upgrade</button>
         </div>
       </div>
       <!-- =================  BOT Starts Here    ======================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
@@ -158,8 +145,7 @@
     </div>
   </body>
 </html>
-<script src="/script/chatbot-templates.js"></script>
-
+<script src="/script/dashboard.js"></script>
 <!-- ====================   Bot JS      =========>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/script/chat.js"></script>

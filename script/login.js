@@ -34,6 +34,7 @@ function logindata(event){
         alert("login Succesfull")
         
         localStorage.setItem("userdetail",JSON.stringify(userdetail))
+        window.location.href="loading.html"
         
     }else{
         alert("Enter Correct Details")
