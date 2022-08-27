@@ -453,18 +453,22 @@ function setdata(){
 let usersdata=JSON.parse(localStorage.getItem("usersdata")) ||[]
 function submituserform1(event){
     event.preventDefault()
+    let flag=false
     let plan=document.getElementById("user-plan").value;
     let email=document.getElementById("user-email").value;
     let url=document.getElementById("user-website").value;
     let pass=document.getElementById("user-password").value;
     usersdata.forEach((ele)=>{
       if(email==ele.email){
-        alert("Email Already Exist")
+        flag=true
       }
     })
     if(checkBox.checked==false || plan=="" || email=="" || url=="" || pass==""){
         alert("Please fill all details")
-    }else{
+    }else if(flag==true){
+        alert("Email Already Exist")
+    }
+    else{
         localStorage.setItem("plan",JSON.stringify(plan))
         localStorage.setItem("email",JSON.stringify(email))
         localStorage.setItem("url",JSON.stringify(url))
