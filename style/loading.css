@@ -1,0 +1,27 @@
+.hight {
+  height: 100px;
+}
+.v-a-m {
+  vertical-align: middle;
+}
+.t-a-c {
+  text-align: center;
+}
+.m-b-15 {
+  margin-bottom: 15px;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.display-b {
+  display: block;
+}
+.f-w-400 {
+  font-weight: 400;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
