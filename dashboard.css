@@ -198,3 +198,54 @@ body {
   background: #f6f9ff;
   border: none;
 }
+.b-c-g:hover {
+  cursor: pointer;
+}
+.b-c-g:hover.b-c-g > img {
+  opacity: 0.6;
+}
+#botinfoappend {
+  display: none;
+  gap: 5px;
+  background-color: #fff;
+  width: 250px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+#botinfoappend > div > img {
+  width: 30px;
+}
+#botinfoappend > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#botinfoappend img {
+  width: 20px;
+}
+#botinfoappend img:hover {
+  opacity: 0.6;
+}
+#botinfoappend button {
+  padding: 2px;
+  width: 40px;
+  border: solid grey 0.5px;
+  background: transparent;
+  padding-top: 6px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+hr {
+  /* width: 2px; */
+  color: grey;
+  border: solid grey 0.5px;
+  height: 80%;
+}
+#firstletter {
+  text-transform: uppercase;
+}
