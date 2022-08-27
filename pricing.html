@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/pricing.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="Styles/navbar.css">
+    <link rel="stylesheet" href="Styles/footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar">
+
+    </div>
+    <div id="heading">
+       <h1>Try SmatBot Free For 14 Days Now. <br>
+        Pick Your Plan Later.</h1>
+    </div>
+    <div id="select">
+        <div class="select_color" id="website" onclick="web()">Website</div>
+        <div class="select_color" id="whatsapp" onclick="whatsapp()">WhatsApp</div>
+    </div>
+    <div id="toggle">
+       <div id="toggle_button">
+        <p id="monthly">Monthly</p>
+        <label class="switch">
+            <input type="checkbox" checked id="price" onclick="hey()">
+            <span class="slider round"></span>
+          </label>
+        <p id="yearly">Yearly </p>
+       </div>
+       <div id="select_currency">
+           <select name="" id="currency" onclick="hey2()">
+              <option value="rupee">Rupees</option>
+              <option value="dollar">Dollar</option>
+           </select>
+       </div>
+    </div>
+    <div id="bigb">
+        <div id="box">
+            <div class="planbox">
+                 <div class="planbox-upper">
+                     <h4>
+                         FREE
+                     </h4>
+                     <h1 id="freeplan-price">
+                         <span class="currency-sign" id="freeplan-rupee">₹</span>
+                         0
+                     </h1>
+                     <p id="anually1">/month billed annually</p>
+                     <h5>1 Bot</h5>
+                     <h5>50 chat per month</h5>
+                     <a href="signup.html"><button class="planbox-button">Signup</button></a>
+                 </div>
+                 <div class="planbox-lower">
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Lead Generation Bot</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Logical Branching</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>URL based flow</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Text-To-Speech</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Access bot through Link</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Email notifications </p>
+     
+                     </div>
+     
+                 </div>
+             </div>
+             <div class="planbox">
+                 <div class="planbox-upper">
+                     <h4>
+                         STARTER
+                     </h4>
+                     <h1 id="starterprice-plan">
+                         <span class="currency-sign" id="starterplan-rupee">₹</span>
+                         1400
+                     </h1>
+                     <p id="anually2">/month billed annually</p>
+                     <h5>5 Bot</h5>
+                     <h5>1000 chat per month</h5>
+                     <a href="signup.html"><button class="planbox-button">Try it for Free    </button></a>
+                 </div>
+                 <div class="planbox-lower">
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Lead Generation Bot</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Logical Branching</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>URL based flow</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Text-To-Speech</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Access bot through Link</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Email notifications </p>
+     
+                     </div>
+     
+                 </div>
+             </div>
+             <div class="planbox" id="blue">
+                 <div class="planbox-upper">
+                     <h4>
+                         PRO
+                     </h4>
+                     <h1 id="proprice-plan">
+                         <span class="currency-sign" id="proplan-rupee">₹</span>
+                         4700
+                     </h1>
+                     <p id="anually3">/month billed annuually</p>
+                     <h5>10 Bot</h5>
+                     <h5>5000 chat per month</h5>
+                     <a href="signup.html"><button class="planbox-button">Try it for Free    </button></a>
+                 </div>
+                 <div class="planbox-lower">
+                     <div class="planbox-content">
+                         
+                         <p id="unique">Everything in Starter +</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Facebook Messengert</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Live Chat (1 Agent)</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Google Sheets Integration</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Appointment Booking</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Multi Language Support</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Webhook Integration </p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Dynamic Response </p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Android App (For Live Agents) </p>
+     
+                     </div>
+     
+                 </div>
+             </div>
+             <div class="planbox">
+                 <div class="planbox-upper">
+                     <h4>
+                         Enterprise
+                     </h4>
+                     <h1>
+                         <span class="currency-sign"></span>
+                         Custom
+                     </h1>
+                     
+                     <h5>Unlimited Bots*</h5>
+                     <h5>Unlimited Chats*</h5>
+                     <a href="signup.html"><button class="planbox-button">Try it for Free    </button></a>
+                 </div>
+                 <div class="planbox-lower">
+                     <div class="planbox-content">
+                         
+                         <p id=headingpro>Everything in Pro +</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Customer Support Bot</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>WhatsApp Chatbot</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>OTP Validation</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>CRM Integrations</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Create AI chatbots</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Data Masking </p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>More Live Chat Agents</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Remove Branding</p>
+     
+                     </div>
+                     <div class="planbox-content">
+                         <i class="fa fa-check su-up-tick" ></i>
+                         <p>Priority support </p>
+     
+                     </div>
+     
+                 </div>
+             </div>  
+     
+         </div>
+         <div id="box2">
+            <img src="./image/abc.jpg" alt="">
+        </div>
+    </div>
+   
+
+    </div>
+    <div id="term">
+        * - Based on custom requirements these features will be enabled
+    </div>
+    <div id="showmore">
+        <button id="show" onclick="compare()">Compare Plan</button>
+    </div>
+    <div id="comparebox">
+        <img src="" alt="" id="compareimg">
+
+    </div>
+    <div id="xr"></div>
+
+</body>
+</html>
+<script src="./script/pricing.js"></script>
+<script type="module">
+import navbars from "./components/navbar.js"
+import footer from "./components/footer.js"
+console.log(navbars)
+document.getElementById("navbar").innerHTML=navbars()
+document.getElementById("xr").innerHTML=footer()
+</script>
