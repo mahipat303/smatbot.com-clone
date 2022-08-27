@@ -444,10 +444,14 @@ const checkbox=()=>{
 let userf=document.getElementById("user-form1")
 userf.addEventListener("submit",submituserform1)
 
-
-let usersdata=JSON.parse(localStorage.getItem("usersdata"))
-function submituserform1(event){
+function setdata(){
     
+    
+}
+
+
+let usersdata=JSON.parse(localStorage.getItem("usersdata")) ||[]
+function submituserform1(event){
     event.preventDefault()
     let plan=document.getElementById("user-plan").value;
     let email=document.getElementById("user-email").value;
@@ -456,19 +460,8 @@ function submituserform1(event){
     usersdata.forEach((ele)=>{
       if(email==ele.email){
         alert("Email Already Exist")
-      }else{
-        setdata()
       }
     })
-
-    
-}
-
-function setdata(){
-    let plan=document.getElementById("user-plan").value;
-    let email=document.getElementById("user-email").value;
-    let url=document.getElementById("user-website").value;
-    let pass=document.getElementById("user-password").value;
     if(checkBox.checked==false || plan=="" || email=="" || url=="" || pass==""){
         alert("Please fill all details")
     }else{
@@ -479,7 +472,10 @@ function setdata(){
         console.log(email,plan,url,pass)
         window.location.href="signup2.html"
     }
+
+    
 }
+
 
 
 
