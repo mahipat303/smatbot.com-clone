@@ -1,5 +1,6 @@
 .ft-footer-smatbot-logo-main-cont>a{
-    text-decoration: none;
+    /* text-decoration: none;
+    font-size: 15px; */
 }
 
 .hd-header-logo-img-cont{
@@ -1478,6 +1479,7 @@
         margin: 0px;
         margin-bottom: 8px;
     }
+    
     .ft-footer-categories-ph-para {
         color: #9F9FA6;
         font-size: 18px;
@@ -1549,4 +1551,27 @@ padding-left: 30%;
 .ft-footer-media-icons-cont{
     padding-right: 10%;
     padding-left: 10%;
+}
+
+.ft-footer-categories-ph-para>a{
+    text-decoration: none;
+    color: #2196f3;
+    font-size: 15px;
+}
+.ft-footer-categories-para-label>a{
+    text-decoration: none;
+    color: #2196f3;
+    font-size: 15px;
+}
+.ft-footer-category-main-cont>div>p>a{
+    font-size: 14.5px;
+   
+    line-height: 0rem;
+}
+.ft-footer-category-main-cont>div>p{
+    font-size: 13px;
+    line-height: 0.8rem;
+}
+.ft-footer-address-country-full-cont>div>p{
+    font-size: 14.5px;
 }

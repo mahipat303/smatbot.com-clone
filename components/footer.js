@@ -8,9 +8,9 @@ let footer = () => {
                 <div class="ft-footer-smatbot-details-inner-cont">
                     <div class="ft-footer-smatbot-logo-main-cont">
                         <div class="hd-header-logo-img-cont">
-                            <a href="/" ng-click="gotoTop()"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" class="" /></a>
+                            <a href="homepage.html"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" class="" /></a>
                         </div>
-                        <a href="/" ng-click="gotoTop()" class="ft-footer-smatbot-anc">
+                        <a href="homepage.html" ng-click="gotoTop()" class="ft-footer-smatbot-anc">
                             <h1 class="ft-footer-smatbot-heading">SmatBot</h1>
                         </a>
                     </div>
@@ -128,21 +128,21 @@ let footer = () => {
                 <!-- <p> <a href="/security" class="ft-footer-terms-para" target="_blank">Security</a></p> -->
             </div>
             <div class="ft-footer-media-icons-cont">
-                <div class="ft-footer-media-icon-contf">
-                    <a href="https://www.facebook.com/smatbotai/" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f font-color-footer"></i></a>
-                </div>
-                <div class="ft-footer-media-icon-contT">
-                    <a href="https://twitter.com/smatbot" target="_blank" rel="noreferrer"><i class="fab fa-twitter font-color-footer"></i></a>
-                </div>
-                <div class="ft-footer-media-icon-contL">
-                    <a href="https://www.linkedin.com/company/smatbot/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in font-color-footer"></i></a>
-                </div>
-                <div class="ft-footer-media-icon-contI">
-                    <a href="https://www.instagram.com/smatbot/" target="_blank" rel="noreferrer"><i class="fab fa-instagram font-color-footer"></i></a>
-                </div>
-                <div class="ft-footer-media-icon-contY">
-                    <a href="https://www.youtube.com/channel/UCyuoTHqQv-7WGjtnH6V5z3w" target="_blank" rel="noreferrer"><i class="fab fa-youtube font-color-footer"></i></a>
-                </div>
+            <div class="ft-footer-media-icons-cont">
+               
+            <a href="https://www.facebook.com/smatbotai/" > <div class="ft-footer-media-icon-contf"></div></a>
+        
+       
+            <a href="https://twitter.com/smatbot" > <div class="ft-footer-media-icon-contT"></div></a>
+        
+       
+            <a href="https://www.linkedin.com/company/smatbot/" > <div class="ft-footer-media-icon-contL">  </div></a>
+      
+        
+            <a href="https://www.instagram.com/smatbot/" ><div class="ft-footer-media-icon-contI"></div></a>
+        
+        <a href="https://www.youtube.com/channel/UCyuoTHqQv-7WGjtnH6V5z3w" ><div class="ft-footer-media-icon-contY"></div></a>
+    </div>
             </div>
         </div>
         <div class="ft-footer-security-main-full-cont">
@@ -185,9 +185,9 @@ let footer = () => {
                 <div class="ft-footer-smatbot-details-inner-cont">
                     <div class="ft-footer-smatbot-logo-main-cont">
                         <div class="hd-header-logo-img-cont">
-                            <a href="/" ng-click="gotoTop()"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" class="" />/</a>
+                            <a href="homepage.html" ng-click="gotoTop()"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" class="" />/</a>
                         </div>
-                        <a href="/" ng-click="gotoTop()" class="ft-footer-smatbot-anc">
+                        <a href="homepage.html" ng-click="gotoTop()" class="ft-footer-smatbot-anc">
                             <h1 class="ft-footer-smatbot-heading">SmatBot</h1>
                         </a>
                     </div>
@@ -304,21 +304,19 @@ let footer = () => {
                 <!-- <p> <a href="/security" class="ft-footer-terms-para" target="_blank">Security</a></p> -->
             </div>
             <div class="ft-footer-media-icons-cont">
-                <div class="ft-footer-media-icon-contf">
-                    <a href="https://www.facebook.com/smatbotai/" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f font-color-footer"></i></a>
-                </div>
-                <div class="ft-footer-media-icon-contT">
-                    <a href="https://twitter.com/smatbot" target="_blank" rel="noreferrer"><i class="fab fa-twitter font-color-footer"></i></a>
-                </div>
-                <div class="ft-footer-media-icon-contL">
-                    <a href="https://www.linkedin.com/company/smatbot/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in font-color-footer"></i></a>
-                </div>
-                <div class="ft-footer-media-icon-contI">
-                    <a href="https://www.instagram.com/smatbot/" target="_blank" rel="noreferrer"><i class="fab fa-instagram font-color-footer"></i></a>
-                </div>
-                <div class="ft-footer-media-icon-contY">
-                    <a href="https://www.youtube.com/channel/UCyuoTHqQv-7WGjtnH6V5z3w" target="_blank" rel="noreferrer"><i class="fab fa-youtube font-color-footer"></i></a>
-                </div>
+               
+                    <a href="https://www.facebook.com/smatbotai/" > <div class="ft-footer-media-icon-contf"></div></a>
+                
+               
+                    <a href="https://twitter.com/smatbot" > <div class="ft-footer-media-icon-contT"></div></a>
+                
+               
+                    <a href="https://www.linkedin.com/company/smatbot/" > <div class="ft-footer-media-icon-contL">  </div></a>
+              
+                
+                    <a href="https://www.instagram.com/smatbot/" ><div class="ft-footer-media-icon-contI"></div></a>
+                
+                <a href="https://www.youtube.com/channel/UCyuoTHqQv-7WGjtnH6V5z3w" ><div class="ft-footer-media-icon-contY"></div></a>
             </div>
         </div>
         <div class="ft-footer-security-main-full-cont">
@@ -329,5 +327,5 @@ let footer = () => {
         <h1 class="ft-footer-copy-heading"><i class="far fa-copyright"></i> 2015-2022 Feso Social Media. All Rights Reserved.</h1>
     </div>
 </section>`
-  }
-  export default footer;
+}
+export default footer;
