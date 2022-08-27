@@ -29,7 +29,7 @@ let footer = () => {
                     <p> <a href="/pricing" class="ft-footer-categories-para" target="_blank">Pricing </a></p>
                     <p> <a href="/ai-services" class="ft-footer-categories-para" target="_blank">AI Services </a></p>
                     <p> <a href="/signup" class="ft-footer-categories-para" target="_blank">Signup </a></p>
-                    <p> <a href="/login" class="ft-footer-categories-para" target="_blank">Login </a></p>
+                    <p> <a href="login.html" class="ft-footer-categories-para" target="_blank">Login </a></p>
                 </div>
                 <div class="ft-footer-product-category-cont">
                     <h1 class="ft-footer-category-heading">RESOURCES</h1>
@@ -38,7 +38,7 @@ let footer = () => {
                     <p> <a href="https://www.smatbot.com/blog/" class="ft-footer-categories-para" target="_blank">Blog</a></p>
                     <!-- <p> <a href="https://www.smatsuite.com/#/about-us#our-team" class="ft-footer-categories-para" target="_blank">Our Team</a></p> -->
                     <p> <a href="/about-us" class="ft-footer-categories-para" target="_blank">About Us</a></p>
-                    <p> <a href="/partners" class="ft-footer-categories-para" target="_blank">Partners</a></p>
+                    <p> <a href="Partners.html" class="ft-footer-categories-para" target="_blank">Partners</a></p>
                     <p> <a href="/free-whatsapp-plugin" class="ft-footer-categories-para" target="_blank">WhatsApp Free Plugin</a></p>
                     <!-- <p> <a href="/security" class="ft-footer-categories-para" target="_blank">Security</a></p> -->
                     <!-- <p ng-if="constants.env == 'DEV'"> <a href="/chatbot-landing" class="ft-footer-categories-para" target="_blank">Chatbot Landing</a></p>
@@ -205,7 +205,7 @@ let footer = () => {
                     <p> <a href="/pricing" class="ft-footer-categories-para" target="_blank">Pricing </a></p>
                     <p> <a href="/ai-services" class="ft-footer-categories-para" target="_blank">AI Services </a></p>
                     <p> <a href="/signup" class="ft-footer-categories-para" target="_blank">Signup </a></p>
-                    <p> <a href="/login" class="ft-footer-categories-para" target="_blank">Login </a></p>
+                    <p> <a href="login.html" class="ft-footer-categories-para" target="_blank">Login </a></p>
                 </div>
                 <div class="ft-footer-product-category-cont">
                     <h1 class="ft-footer-category-heading">RESOURCES</h1>
@@ -214,7 +214,7 @@ let footer = () => {
                     <p> <a href="https://www.smatbot.com/blog/" class="ft-footer-categories-para" target="_blank">Blog</a></p>
                     <!-- <p> <a href="https://www.smatsuite.com/#/about-us#our-team" class="ft-footer-categories-para" target="_blank">Our Team</a></p> -->
                     <p> <a href="/about-us" class="ft-footer-categories-para" target="_blank">About Us</a></p>
-                    <p> <a href="/partners" class="ft-footer-categories-para" target="_blank">Partners</a></p>
+                    <p> <a href="Partners.html" class="ft-footer-categories-para" target="_blank">Partners</a></p>
                     <p> <a href="/free-whatsapp-plugin" class="ft-footer-categories-para" target="_blank">WhatsApp Free Plugin</a></p>
                     <!-- <p> <a href="/security" class="ft-footer-categories-para" target="_blank">Security</a></p> -->
                     <!-- <p ng-if="constants.env == 'DEV'"> <a href="/chatbot-landing" class="ft-footer-categories-para" target="_blank">Chatbot Landing</a></p>

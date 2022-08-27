@@ -31,16 +31,27 @@
 }
 
 #left_up{
-   
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid red; */
+   width: 65%;
+   height: 100%;
+   margin-left: 21%;
+   margin-top: 5%;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+}
+#left_up>a>img{
+    width: 100%;
+    height: 100%;
 }
 
 #logo_id2{
-  font-size: 11.5px; 
+    /* border: 1px solid red; */
+  font-size: 12.5px; 
 color:gray;
-
- padding-left: 44px;
+width: 100%;
+height: 100%;
+margin-left: 24%;
+margin-top: 5%;
 
 }
 #left_navbar div div img {
