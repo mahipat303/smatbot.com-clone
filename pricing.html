@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./style/pricing.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-
+    <link rel="stylesheet" href="Styles/navbar.css">
+    <link rel="stylesheet" href="Styles/footer.css">
     <title>Document</title>
 </head>
 <body>
@@ -286,7 +287,15 @@
         <img src="" alt="" id="compareimg">
 
     </div>
+    <div id="xr"></div>
 
 </body>
 </html>
 <script src="./script/pricing.js"></script>
+<script type="module">
+import navbars from "./components/navbar.js"
+import footer from "./components/footer.js"
+console.log(navbars)
+document.getElementById("navbar").innerHTML=navbars()
+document.getElementById("xr").innerHTML=footer()
+</script>

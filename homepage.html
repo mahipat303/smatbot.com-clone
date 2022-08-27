@@ -6,13 +6,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/navbar.css">
+    <link rel="stylesheet" href="Styles/footer.css">
     <title>Document</title>
     <link rel="stylesheet" href="homepage.css">
 </head>
 
 <body>
     <!-- =============================================<header></header>=============================================== -->
-
+    <div id="nav"></div>
     <div id="header">
 
         <div id="left">
@@ -417,8 +419,15 @@
         <button>Start Free Trial</button>
     </div>
     </div>
+    <div id="fot"></div>
 
 </body>
 
 </html>
-
+<script type="module">
+    import navbars from "./components/navbar.js"
+    import footer from "./components/footer.js"
+    console.log(navbars)
+    document.getElementById("nav").innerHTML=navbars()
+    document.getElementById("fot").innerHTML=footer()
+</script>
