@@ -29,5 +29,5 @@ function getBotResponse(input) {
 }
 
 document.getElementById("logOut").addEventListener("click",function(){
-  window.location.href="homepage.html"
+  window.location.href="index.html"
 })

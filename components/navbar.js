@@ -3,7 +3,7 @@ let navbars=()=>{
     <div id="left_navbar">
         <div id="left_up"> 
         
-            <a href="homepage.html"> <img src="https://s3.ap-south-1.amazonaws.com/custpostimages/sb_images/SB_logo_horizontal_text_compressed.png" alt="smatbot-logo"></a>
+            <a href="index.html"> <img src="https://s3.ap-south-1.amazonaws.com/custpostimages/sb_images/SB_logo_horizontal_text_compressed.png" alt="smatbot-logo"></a>
        
         </div>
       <div><p id="logo_id2">Subsidiary of ByteQuark</p></div> 

@@ -8,9 +8,9 @@ let footer = () => {
                 <div class="ft-footer-smatbot-details-inner-cont">
                     <div class="ft-footer-smatbot-logo-main-cont">
                         <div class="hd-header-logo-img-cont">
-                            <a href="homepage.html"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" class="" /></a>
+                            <a href="index.html"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" class="" /></a>
                         </div>
-                        <a href="homepage.html" ng-click="gotoTop()" class="ft-footer-smatbot-anc">
+                        <a href="index.html" ng-click="gotoTop()" class="ft-footer-smatbot-anc">
                             <h1 class="ft-footer-smatbot-heading">SmatBot</h1>
                         </a>
                     </div>
@@ -185,9 +185,9 @@ let footer = () => {
                 <div class="ft-footer-smatbot-details-inner-cont">
                     <div class="ft-footer-smatbot-logo-main-cont">
                         <div class="hd-header-logo-img-cont">
-                            <a href="homepage.html" ng-click="gotoTop()"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" class="" />/</a>
+                            <a href="index.html" ng-click="gotoTop()"><img src="https://www.smatbot.com/img/Header/Logo_sp.svg" class="" />/</a>
                         </div>
-                        <a href="homepage.html" ng-click="gotoTop()" class="ft-footer-smatbot-anc">
+                        <a href="index.html" ng-click="gotoTop()" class="ft-footer-smatbot-anc">
                             <h1 class="ft-footer-smatbot-heading">SmatBot</h1>
                         </a>
                     </div>
