@@ -27,3 +27,7 @@ function getBotResponse(input) {
     return "Try asking something else!";
   }
 }
+
+document.getElementById("logOut").addEventListener("click",function(){
+  window.location.href="homepage.html"
+})

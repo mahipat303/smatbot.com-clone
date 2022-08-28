@@ -204,6 +204,16 @@ body {
 #firstletter {
   text-transform: uppercase;
 }
+
+#logOut {
+  color: red;
+  color: #f5417c;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
 @media only screen and (max-width: 768px) {
   #template_container {
     display: grid;

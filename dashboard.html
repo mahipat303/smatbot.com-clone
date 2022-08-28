@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./style/dashboard.css" />
 
     <!-- bot link =====================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-    <link rel="stylesheet" href="./style/chat.css">
+    <link rel="stylesheet" href="./style/chat.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -44,6 +44,7 @@
             <i class="fa fa-caret-down m-l-5 pull-right m-t-5"></i>
           </button>
         </div>
+        <label id="logOut" class="verify-red pointer">Logout</label>
       </div>
       <div id="midle">
         <div id="midle_sidebar">
@@ -99,7 +100,7 @@
               />
               <label>Your Bot</label>
             </div>
-            <hr>
+            <hr />
             <div>
               <button>
                 <img
@@ -193,3 +194,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="./script/chat.js"></script>
 <script src="./script/res.js"></script>
+<script>
+  document.getElementById("user_info").addEventListener("click", function () {
+    console.log("hello");
+  });
+</script>
