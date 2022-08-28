@@ -43,7 +43,7 @@
 
 
                 <div id="sndbtn">
-                    <button>Start Free Trial</button>
+                    <button id="l-m-l">Start Free Trial</button>
                     <p>*No Credit Card Required</p>
 
                     <div id="imgs">
@@ -415,8 +415,8 @@
             Across the Web.</h1>
         <p>Build Customizable, Conversational Chatbots
             for All Your Business Needs.</p>
-        <button>Book Demo</button>
-        <button>Start Free Trial</button>
+        <button><a class="l-m-a" href="#">Book Demo</a> </button>
+        <button><a class="l-m-a" href="signup.html">Start Free Trial</a> </button>
     </div>
     </div>
     <div id="fot"></div>
@@ -430,4 +430,7 @@
     console.log(navbars)
     document.getElementById("nav").innerHTML=navbars()
     document.getElementById("fot").innerHTML=footer()
+    document.getElementById("l-m-l").addEventListener("click",function(){
+        window.location.href="signup.html"
+    })
 </script>
