@@ -116,3 +116,25 @@ ulAppend(list1);
 function temFilter(list) {
   window.location.href = "chatbot-templates.html";
 }
+
+var mail = JSON.parse(localStorage.getItem("email"));
+var users = JSON.parse(localStorage.getItem("userdetail"));
+
+// document.getElementById("username").innerText=user
+users.forEach((ele) => {
+  if (ele.email == mail) {
+    document.getElementById("username").innerText = ele.name;
+    document.getElementById("firstletter").innerText = ele.name[0];
+  }
+});
+document.getElementById("email").innerText = mail;
+
+function goTemp() {
+  window.location.href = "chatbot-templates.html";
+}
+function goDash() {
+  window.location.href = "dashboard.html";
+}
+function goAi() {
+  window.location.href = "botAi.html";
+}
