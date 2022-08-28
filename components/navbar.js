@@ -14,24 +14,24 @@ let navbars=()=>{
         <div class="class-menu">
             <button class="class-button">Product</button>
             <div class="dropdownmenu">
-                <a href="chatbot.html">Chatbot</a>
-                <a href="liveChat.html">Live Chat</a>
-                <a href="useCases.html">UseCases</a>
-                <a href="marketing&Sales.html">Marketing & Sales</a>
-                <a href="support.html">Support</a>
-                <a href="templates.html">Templates</a>
+                <a href="#">Chatbot</a>
+                <a href="#">Live Chat</a>
+                <a href="#">UseCases</a>
+                <a href="#">Marketing & Sales</a>
+                <a href="#">Support</a>
+                <a href="#">Templates</a>
             </div>
         </div>
         <div class="class-menu">
             
-                <button class="class-button"><a href="WhatsApp.html">WhatsApp</a> </button>
+                <button class="class-button"><a href="#">WhatsApp</a> </button>
                
             
                 
         </div>
         <div class="class-menu">
             
-            <button class="class-button"><a href="Instagram.html">Instagram</a> </button>
+            <button class="class-button"><a href="instagram.html">Instagram</a> </button>
            
         
             
@@ -59,13 +59,13 @@ let navbars=()=>{
 </div>
 <div class="class-menu">
             
-<button id="Free_trail"><a href="FreeTrial.html">Free Trial</a> </button>
+<button id="Free_trail"><a href="#">Free Trial</a> </button>
 
 
 </div>
 <div class="class-menu">
             
-<button id="book_demo"><a href="BookDemo.html">Book Demo</a> </button>
+<button id="book_demo"><a href="signup.html">Book Demo</a> </button>
 
 
 </div>
