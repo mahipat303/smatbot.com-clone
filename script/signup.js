@@ -444,12 +444,6 @@ const checkbox=()=>{
 let userf=document.getElementById("user-form1")
 userf.addEventListener("submit",submituserform1)
 
-function setdata(){
-    
-    
-}
-
-
 let usersdata=JSON.parse(localStorage.getItem("usersdata")) ||[]
 function submituserform1(event){
     event.preventDefault()
@@ -476,8 +470,6 @@ function submituserform1(event){
         console.log(email,plan,url,pass)
         window.location.href="signup2.html"
     }
-
-    
 }
 
 
