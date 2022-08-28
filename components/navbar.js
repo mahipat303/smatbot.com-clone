@@ -59,7 +59,7 @@ let navbars=()=>{
 </div>
 <div class="class-menu">
             
-<button id="Free_trail"><a href="#">Free Trial</a> </button>
+<button id="Free_trail"><a href="signup.html">Free Trial</a> </button>
 
 
 </div>

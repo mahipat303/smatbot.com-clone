@@ -258,6 +258,9 @@ a{
     text-decoration: none;
     color: #465def;
 }
+#link_page>a{
+    color: #465DEF;
+}
 
 
 
