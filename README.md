@@ -1,5 +1,5 @@
 # wired-interest-36
-A collaborative project where we cloned a website in 4 days duration
+A collaborative project where we cloned a website in 5 days duration
 
 # smatbot.com (clone)
 clone of the well-known chatBot platform smatbot.com with some actual functionality and similar design
